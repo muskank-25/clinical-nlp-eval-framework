@@ -1,0 +1,38 @@
+{
+  "file_name": "336W08434_J721-109845_20241127.json",
+  "entity_type_error_rate": {
+    "MEDICINE": 0.1667,
+    "IMMUNIZATION": 1.0,
+    "SDOH": 0.1667,
+    "SOCIAL_HISTORY": 0.2,
+    "PROBLEM": 0.0357,
+    "MENTAL_STATUS": 0.4,
+    "TEST": 0.0,
+    "VITAL_NAME": 0.3,
+    "MEDICAL_DEVICE": 0.0,
+    "PROCEDURE": 0.517
+  },
+  "assertion_error_rate": {
+    "POSITIVE": 0.3763,
+    "NEGATIVE": 0.0909,
+    "UNCERTAIN": 0.0556
+  },
+  "temporality_error_rate": {
+    "CURRENT": 0.382,
+    "CLINICAL_HISTORY": 0.0,
+    "UPCOMING": 0.3143,
+    "UNCERTAIN": 0.3333
+  },
+  "subject_error_rate": {
+    "PATIENT": 0.3217,
+    "FAMILY_MEMBER": 0.0
+  },
+  "event_date_accuracy": 0.0,
+  "attribute_completeness": 0.7713,
+  "_meta": {
+    "total_entities": 230,
+    "noise_entities": 74,
+    "date_samples": 2,
+    "medicine_samples": 43
+  }
+}
